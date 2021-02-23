@@ -17,6 +17,9 @@ hvac = "*"
 robotframework-ftplibrary = "*"
 lxml = "*"
 robotframework-requests = "*"
+robotframework-databaselibrary = ">=1.2.4"
+py-postgresql = "*"
 
 [requires]
 python_version = "3"
+libpq = "*"
