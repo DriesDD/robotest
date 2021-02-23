@@ -6,7 +6,7 @@ Resource          db-resource.robot
 
 *** Test Cases ***
 Tableau Login to MH postgresql db
-    [Tags]    web-test  login  mediahaven  prd  qas  int
+    [Tags]    tableau  login  mediahaven  prd  qas  int
     ${username}=    Get username from vault   mediahaven_tableau
     ${passwd}=      Get passwd from vault     mediahaven_tableau
     Connect To Mediahaven DB    ${username}     ${passwd}
